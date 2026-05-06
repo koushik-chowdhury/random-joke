@@ -1,0 +1,73 @@
+.card {
+  max-width: 650px;
+  margin: auto;
+
+  background: white;
+  padding: 40px;
+
+  border-radius: 32px;
+
+  position: relative;
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 40px rgba(0,0,0,0.08);
+
+  text-align: center;
+}
+
+.blob {
+  position: absolute;
+
+  width: 240px;
+  height: 240px;
+
+  background: #efe8ff;
+
+  border-radius: 50%;
+
+  top: -100px;
+  right: -80px;
+}
+
+.emoji {
+  font-size: 52px;
+  margin-bottom: 20px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.joke {
+  font-size: 24px;
+  line-height: 1.9;
+  font-weight: 500;
+
+  position: relative;
+  z-index: 2;
+}
+
+button {
+  margin-top: 35px;
+
+  border: none;
+
+  background: #7b4dff;
+  color: white;
+
+  padding: 14px 24px;
+
+  border-radius: 999px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  opacity: 0.95;
+}
